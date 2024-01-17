@@ -1,0 +1,33 @@
+.multi-select-dialog-item {
+  .item-image {
+    img {
+      @apply w-10 rounded-xl
+    }
+  }
+  .item-meta {
+    .title {
+      @apply font-semibold text-sm text-[#4a5468]
+    }
+    .sub-title {
+      @apply font-medium text-xs text-[#69758b]
+    }
+    @apply ml-2
+  }
+  .item-checked {
+    i {
+      @apply text-xl text-green-600
+    }
+    @apply ml-auto
+  }
+
+  &:hover{
+    @apply bg-[#e4ffe6]
+  }
+  &:last-child {
+    @apply border-none
+  }
+  &.selected {
+    @apply bg-[#e4ffe6]
+  }
+  @apply flex items-center p-2 cursor-pointer transition-all border-b border-[#97a2b7] bg-[#f8fafc]
+}

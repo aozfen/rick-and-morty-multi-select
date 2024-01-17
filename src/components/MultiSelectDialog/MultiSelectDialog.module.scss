@@ -1,0 +1,12 @@
+.multi-select-dialog {
+  .multi-select-dialog-list {
+    @apply overflow-auto max-h-96 rounded-xl
+  }
+  &.show {
+    @apply block
+  }
+  &:hover{
+    @apply block
+  }
+  @apply hidden absolute w-full rounded-xl mt-2 border border-[#97a2b7]
+}

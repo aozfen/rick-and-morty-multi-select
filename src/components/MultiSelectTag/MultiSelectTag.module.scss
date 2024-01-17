@@ -1,0 +1,20 @@
+.multi-select-tag {
+  .title {
+    @apply text-[#364054] text-sm font-medium
+  }
+  .cancel {
+    &:hover {
+      @apply bg-red-400 transition-all
+    }
+    @apply py-1 px-1 ml-2 flex items-center justify-center rounded-md outline-none border-none bg-[#97a2b7]
+  }
+
+  &.selected {
+    .cancel {
+      @apply bg-red-400
+    }
+    @apply border border-gray-400
+  }
+
+  @apply flex items-center border py-0.5 pl-2 pr-1 rounded-lg bg-[#e3e8ef]
+}

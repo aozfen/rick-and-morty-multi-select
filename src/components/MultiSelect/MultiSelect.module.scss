@@ -1,0 +1,12 @@
+.multi-select-container {
+  .multi-select{
+ 
+    .multi-select-input {
+      flex: 1 1 100px;
+      @apply outline-none text-sm h-7 pl-2
+    }
+    box-shadow: rgba(100, 100, 111, 0.1) -2px -1px 20px 0px;
+    @apply flex flex-wrap border p-1 rounded-xl gap-1 border-[#97a2b7]
+  }
+  @apply relative
+}
