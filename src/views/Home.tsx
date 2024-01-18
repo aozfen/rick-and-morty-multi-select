@@ -38,7 +38,7 @@ function Home() {
   }
 
   return (
-    <div className='flex items-center justify-center mt-96 p-4'>
+    <div className='flex items-center justify-center mt-24 p-4'>
       <div className='w-[500px]'>
         <MultiSelect
           placeholder='Search a character'
